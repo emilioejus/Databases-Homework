@@ -82,7 +82,7 @@ select product_name,
 from 
 	   products p
 inner join suppliers s 
-	on p.supplier_id = s.id 
+	on p.supplier_id = s.id ;
 	
-select product_name,supplier_name from products p inner join suppliers s on p.supplier_id = s.id 
+select product_name, supplier_name from products p inner join suppliers s on p.supplier_id = s.id ;
 
